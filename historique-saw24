@@ -1,0 +1,46 @@
+    1  sudo update
+    2  lantou
+    3  sudo apt update 
+    4  sudo apt upgrade 
+    5  sudo apt install openssh-server 
+    6  sudo sh scriptinstall
+    7  ls
+    8  ls -asl
+    9  cat /etc/apache2/apache2.conf 
+   10  ls /home/
+   11  ls /etc/
+   12  sudo cat /home/bobj/passwd.txt 
+   13  sudo su bobj
+   14  exit
+   15  ls .ssh/
+   16  sudo vi .ssh/authorized_keys
+   17  ls .ssh/
+   18  ifconfig
+   19  sudo apt install net-tools 
+   20  ifconfig
+   21  ifconfig 
+   22  sudo vi .ssh/authorized_keys
+   23  ifconfig 
+   24  sudo vi /etc/apache2/apache2.conf 
+   25  sudo ls  /etc/apt/
+   26  sudo ls  /etc/apt/apt.conf.d/
+   27  sudo ls -asl  /etc/apt/
+   28  scp /etc/apache2/sites-enabled/dhis.conf saw@192.168.1.69:/Users/Shared/dossiercommun
+   29  exit
+   30  ifconfig 
+   31  ls 
+   32  ls Downloads/
+   33  ls /home/
+   34  ls /home/bobj/
+   35  ls
+   36  sudo su bobj
+   37  cp dhis-saw.conf /etc/apache2/sites-available/
+   38  sudo cp dhis-saw.conf /etc/apache2/sites-available/
+   39  sudo a2dissite dhis.conf 
+   40  sudo a2ensite dhis-saw.conf 
+   41  sudo service apache2 restart 
+   42  sudo nano /etc/apache2/sites-available/dhis-saw.conf 
+   43  sudo service apache2 restart 
+   44  sudo service apache2 stop 
+   45  sudo nano /etc/postgresql/10/main/postgresql.conf 
+   46  history > historique-saw24
